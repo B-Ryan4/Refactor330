@@ -5,15 +5,15 @@ import java.util.List;
 
 public class Customer {
 
-    private String name;
+    private String customerName;
     private List<Rental> rentals = new ArrayList<Rental>();
 
-    public Customer(String name) {
-        this.name = name;
+    public Customer(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getName() {
-        return name;
+        return customerName;
     }
 
     public void addRental(Rental rental) {
